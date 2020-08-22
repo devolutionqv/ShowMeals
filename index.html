@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="principal">
+        <div class="h-main">
+          <hgroup class="h-gp">
+            <h1>Encuentra tu sabor con nosotros</h1>
+            <h2>Nuestro menú pensado en todo los gustos</h2>
+          </hgroup>
+        </div>
+        <a href="#p-menu"><button>ENTRAR</button></a>
+      </section>
+      <section id="p-menu">
+        <h2>MENU</h2>
+        <div id="categories"></div>
+      </section>
+      <section id="cat-individual">
+        <h2 class="title-meal"></h2>
+        <section class="group-meal"></section>
+        <a href="#p-menu"><div id="top">UP</div></a>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
